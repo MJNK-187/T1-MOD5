@@ -1,6 +1,7 @@
 const tbody = document.querySelector('#user-list');
 let users = [];
 
+
 // Alle users binnenhalen via een API call voordat een gebruiker iets met de pagina kan doen.
 window.onload = () => {
     fetchUsers();

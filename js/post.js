@@ -5,6 +5,7 @@ const user_detail_info2 = document.querySelector('#user-details2');
 let user_details = {};
 let user_details2 = {};
 
+
 window.onload = function() 
 {
     getUserDetails(getURLParameter('user_id'));
